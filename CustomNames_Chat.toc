@@ -1,0 +1,14 @@
+## Interface: 110000
+## Title: CustomNames_ElvUI
+## Version: @project-version@
+## Notes: Adds Chat support for CustomNames
+## Author: Jods
+## X-Curse-Project-ID: 1073608
+## X-Wago-ID: Q6aEJg6W
+## RequiredDeps: CustomNames
+## OptionalDeps: ViragDevTool
+
+#Libs
+embeds.xml
+
+CustomNames_Chat.lua

@@ -1,5 +1,5 @@
 ## Interface: 110000
-## Title: CustomNames_ElvUI
+## Title: CustomNames_Chat
 ## Version: @project-version@
 ## Notes: Adds Chat support for CustomNames
 ## Author: Jods

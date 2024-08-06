@@ -6,8 +6,12 @@ local function convertName(msg, name)
 	local customName = lib.Get(name)
 	if customName ~= name then
 		local color = msg:match("|c(%x%x%x%x%x%x%x%x)(.-)|r")
-		local colorCodedName = WrapTextInColorCode(customName, color)
-		return "|Hplayer:"..name.."|h["..colorCodedName.."]|h" 
+		if color then
+			local colorCodedName = WrapTextInColorCode(customName, color)
+			return "|Hplayer:"..name.."|h["..colorCodedName.."]|h" 
+		else
+			return "|Hplayer:"..name.."|h["..customName.."]|h" 
+		end
 	end
 end
 

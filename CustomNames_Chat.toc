@@ -1,4 +1,4 @@
-## Interface: 110000
+## Interface: 110002
 ## Title: CustomNames_Chat
 ## Version: @project-version@
 ## Notes: Adds Chat support for CustomNames

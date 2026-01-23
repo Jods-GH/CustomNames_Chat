@@ -16,6 +16,7 @@ local function convertName(msg, name)
 end
 
 function AceHook:AddMessage(frame, text, ...)
+	if issecretvalue(text) then return self.hooks[frame].AddMessage(frame, text, ...) end
 	if text and type(text) == "string" then 
 		text = text:gsub("(|Hplayer:([^:]+).-|h.-|h)", convertName)
 	end

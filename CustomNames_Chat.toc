@@ -5,6 +5,7 @@
 ## Author: Jods
 ## X-Curse-Project-ID: 1073608
 ## X-Wago-ID: Q6aEJg6W
+## IconTexture: Interface\AddOns\CustomNames_Chat\Media\Logo.tga
 ## RequiredDeps: CustomNames
 ## OptionalDeps: ViragDevTool
 ## Category-enUS: User Interface
